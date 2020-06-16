@@ -212,5 +212,32 @@
             app:layout_constraintTop_toBottomOf="@+id/imageView14"
             tools:text="1338" />
 
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/groupStateNewConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:constraint_referenced_ids="textStateNewConfirm,imageView12"
+            tools:layout_editor_absoluteX="@dimen/dimen_84"
+            tools:layout_editor_absoluteY="@dimen/dimen_84" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/groupStateNewRecover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:constraint_referenced_ids="textStateNewRecover,imageView13"
+            tools:layout_editor_absoluteX="@dimen/dimen_84"
+            tools:layout_editor_absoluteY="@dimen/dimen_84" />
+
+        <androidx.constraintlayout.widget.Group
+            android:id="@+id/groupStateNewDeaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            app:constraint_referenced_ids="textStateNewDeath,imageView14"
+            tools:layout_editor_absoluteX="@dimen/dimen_84"
+            tools:layout_editor_absoluteY="@dimen/dimen_84" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>
